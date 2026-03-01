@@ -1,0 +1,81 @@
+html, body {
+    font-size: 1.1em;
+}
+
+.back-button {
+    text-decoration: none;
+    color: black;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.description {
+    padding: 15px 20px;
+    background-color: #244524;
+    margin-left: 50px;
+    color: white;
+    border-radius: 5px;
+}
+
+.component {
+
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 1px 5px black;
+}
+
+.description-component {
+    display: flex;
+    align-items: center;
+    color: dimgrey;
+}
+
+.dialog-bulle {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.dialog-bulle::before {
+    content: "💬 ";
+    color: #333;
+}
+
+.rpi {
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.code_block {
+    width: calc(100% - 50px);
+    background-color: #d6d6d6;
+    display: block;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.code_block_container {
+    margin-left: 50px;
+}
+
+button {
+    cursor: pointer;
+    color: #ffffff;
+
+    border-radius: 5px;
+    padding: 7px 15px;
+    border: none;
+
+    &#show_code{
+         background-color: #347749;
+    }
+    &#hide_code{
+         background-color: #97223f;
+    }
+}

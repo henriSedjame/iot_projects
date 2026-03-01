@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice</title>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/lib/codemirror.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/addon/runmode/runmode-standalone.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/mode/python/python.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a href="./index.html" class="back-button"> ⬅️ RETOUR</a>
+<md-block src="./prj_calculatrice/description.md"></md-block>
+
+<div class="code_block_container">
+    <button id="show_code">
+        Voir le code final
+    </button>
+
+    <pre id="code_final" class="code_block">
+        <code id="python_code">
+            <md-block src="./prj_calculatrice/code.md"></md-block>
+        </code>
+    </pre>
+
+    <button id="hide_code">
+        Masquer le code final
+    </button>
+
+</div>
+
+
+<script type="text/javascript" src="./code.js"></script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+```python
 from logic import Logic
 from clavier import Clavier
 from ecran import Ecran
@@ -25,3 +26,4 @@ while True:
         logic.input(symbol)
         ecran.clear()
         ecran.write(logic.show())
+```
