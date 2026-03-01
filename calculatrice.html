@@ -18,11 +18,37 @@
         Voir le code final
     </button>
 
-    <pre id="code_final" class="code_block">
-        <code id="python_code">
-            <md-block src="./prj_calculatrice/code.md"></md-block>
-        </code>
-    </pre>
+    <div id="code_final">
+        <div class="tabs">
+            <div id="main-tab" class="tab" onclick="showTab('main', ['main', 'clavier', 'ecran', 'logic'])">main.py</div>
+            <div id="clavier-tab" class="tab" onclick="showTab('clavier', ['main', 'clavier', 'ecran', 'logic'])">clavier.py</div>
+            <div id="ecran-tab" class="tab" onclick="showTab('ecran', ['main', 'clavier', 'ecran', 'logic'])">ecran.py</div>
+            <div id="logic-tab" class="tab" onclick="showTab('logic', ['main', 'clavier', 'ecran', 'logic'])">logic.py</div>
+        </div>
+
+        <div id="main" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_calculatrice/main.md" ></md-block></code>
+            </pre>
+        </div>
+        <div id="clavier" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_calculatrice/clavier.md" ></md-block></code>
+            </pre>
+        </div>
+         <div id="ecran" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_calculatrice/ecran.md" ></md-block></code>
+            </pre>
+        </div>
+         <div id="logic" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_calculatrice/logic.md" ></md-block></code>
+            </pre>
+        </div>
+
+    </div>
+
 
     <button id="hide_code">
         Masquer le code final

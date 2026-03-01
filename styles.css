@@ -58,7 +58,10 @@ html, body {
     display: block;
     align-items: center;
     padding: 5px 25px;
+    border: .005rem solid #8f8f8f;
+    border-radius: 5px;
 }
+
 
 .code_block_container {
     margin-left: 50px;
@@ -72,10 +75,38 @@ button {
     padding: 7px 15px;
     border: none;
 
-    &#show_code{
-         background-color: #347749;
+    &#show_code {
+        background-color: #347749;
     }
-    &#hide_code{
-         background-color: #97223f;
+
+    &#hide_code {
+        background-color: #97223f;
+        margin-top: 2px;
+    }
+
+}
+
+pre {
+    margin: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+
+    .tab {
+        background-color: #d6d6d6;
+        padding: 3px 15px;
+        margin-bottom: 2px;
+        border-radius: 5px;
+        color: #232323;
+        cursor: pointer;
+        border: .005rem solid #8f8f8f;
+
+        &.active {
+            background-color: #ffffff;
+        }
     }
 }

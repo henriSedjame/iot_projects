@@ -19,11 +19,31 @@
         Voir le code final
     </button>
 
-    <pre id="code_final" class="code_block">
-        <code id="python_code">
-            <md-block src="./prj_poubelle/code.md"></md-block>
-        </code>
-    </pre>
+    <div id="code_final">
+        <div class="tabs">
+            <div id="main-tab" class="tab" onclick="showTab('main', ['main', 'moteur', 'capteur'])">main.py</div>
+            <div id="moteur-tab" class="tab" onclick="showTab('moteur', ['main', 'moteur', 'capteur'])">moteur.py</div>
+            <div id="capteur-tab" class="tab" onclick="showTab('capteur', ['main', 'moteur', 'capteur'])">capteur.py</div>
+        </div>
+
+        <div id="main" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_poubelle/main.md" ></md-block></code>
+            </pre>
+        </div>
+        <div id="moteur" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_poubelle/moteur.md" ></md-block></code>
+            </pre>
+        </div>
+        <div id="capteur" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_poubelle/capteur.md" ></md-block></code>
+            </pre>
+        </div>
+
+    </div>
+
 
     <button id="hide_code">
         Masquer le code final
