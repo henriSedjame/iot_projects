@@ -1,5 +1,5 @@
 
-window.onload = function () {
+function showCode() {
     let codeElement = document.getElementById('python_code');
 
     codeElement.classList.add('cm-s-default');
@@ -12,7 +12,8 @@ window.onload = function () {
         'python',
         codeElement
     );
-};
+}
+
 
 let codeFinal = document.getElementById('code_final');
 let showCodeBtn = document.getElementById('show_code');
@@ -25,6 +26,7 @@ showCodeBtn.addEventListener('click', function () {
     codeFinal.style.display = "block";
     hideCodeBtn.style.display = "block";
     showCodeBtn.style.display = "none";
+    showCode();
 });
 
 hideCodeBtn.addEventListener('click', function () {
