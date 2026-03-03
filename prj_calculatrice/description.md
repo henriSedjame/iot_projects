@@ -57,7 +57,7 @@ Et là c'est l'écran qui affichera la saisie de l'utilisateur et le résultat d
 </div>
 <div class="rpi-content">
 <div>
-En fait, un microcontrôleur c'est comme un tout petit ordinateur 🖥️.
+En fait, un microcontrôleur, c'est comme un tout petit ordinateur 🖥️.
 
 Celui là s'appelle <span class="rpi"> <img src="../assets/rpi-logo.png" width=15 alt="Raspberry Pi Pico">  Raspberry Pi Pico</span>
 
@@ -65,15 +65,15 @@ Il sera le 🧠 cerveau de notre poubelle.
 
 🤔...
 
-<span class="dialog-bulle">Okay 🙄 bon il faudra quand même lui dire exactement ce qu'on attend de lui...</span>
+<span class="dialog-bulle">Okay 🙄 bon, il faudra quand même lui dire exactement ce qu'on attend de lui...</span>
 
 🤔...
 
-<span class="dialog-bulle">Il faudra le lui dire dans un langage qu'il comprend 🤗 ... <strong>le python 🐍</strong> </span>
+<span class="dialog-bulle"> Il faudra le lui dire dans un langage qu'il comprend 🤗 ... <strong>le python 🐍</strong> </span>
 
 😱...
 
-<span class="dialog-bulle">🤣 Non, python c'est un langage informatique ☺️</span>
+<span class="dialog-bulle">🤣 Non, python, c'est un langage informatique ☺️</span>
 </div>
 
 </div>
@@ -87,11 +87,11 @@ Eh oui !!! Nous allons écrire un <strong>programme informatique</strong> en <st
 </p>
 
 <p style="padding-left: 50px;">
-C'est ce qu'on appelle un <strong>sytème embarqué</strong>
+C'est ce qu'on appelle un <strong>système embarqué</strong>
 </p>
 
 <p style="padding-left: 50px;">
-Allez au travail 😜 et seulement après tu pourras regarder le code final 👇.
+Allez au travail 😜 et seulement après, tu pourras regarder le code final 👇.
 </p>
 
 

@@ -58,7 +58,7 @@ Il possède un bras articulé 🦾 qui permettra de soulever le couvercle de la 
 </div>
 <div class="rpi-content">
 <div>
-En fait, un microcontrôleur c'est comme un tout petit ordinateur 🖥️.
+En fait, un microcontrôleur, c'est comme un tout petit ordinateur 🖥️.
 
 Celui là s'appelle <span class="rpi"> <img src="../assets/rpi-logo.png" width=15 alt="Raspberry Pi Pico">  Raspberry Pi Pico</span>
 
@@ -66,11 +66,11 @@ Il sera le 🧠 cerveau de notre poubelle.
 
 🤔...
 
-<span class="dialog-bulle">Okay 🙄 bon il faudra quand même lui dire exactement ce qu'on attend de lui...</span>
+<span class="dialog-bulle">Okay 🙄 bon, il faudra quand même lui dire exactement ce qu'on attend de lui...</span>
 
 🤔...
 
-<span class="dialog-bulle">Il faudra le lui dire dans un langage qu'il comprend 🤗 ... <strong>le python 🐍</strong> </span>
+<span class="dialog-bulle"> Il faudra le lui dire dans un langage qu'il comprend 🤗 ... <strong>le python 🐍</strong> </span>
 
 😱...
 
@@ -88,7 +88,7 @@ Eh oui !!! Nous allons écrire un <strong>programme informatique</strong> en <st
 </p>
 
 <p style="padding-left: 50px;">
-C'est ce qu'on appelle un <strong>sytème embarqué</strong>
+C'est ce qu'on appelle un <strong>système embarqué</strong>
 </p>
 
 
