@@ -87,7 +87,7 @@ Il sera le 🧠 cerveau de notre arrosoir.
 </p>
 
 <p style="padding-left: 50px;">
-Eh oui !!! Nous allons écrire un <strong>programme informatique</strong> en <strong> language python 🐍</strong> pour piloter notre poubelle. 
+Eh oui !!! Nous allons écrire un <strong>programme informatique</strong> en <strong> language python 🐍</strong> pour piloter notre arrosoir. 
 </p>
 
 <p style="padding-left: 50px;">
