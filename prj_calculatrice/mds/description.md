@@ -90,8 +90,8 @@ Eh oui !!! Nous allons écrire un <strong>programme informatique</strong> en <st
 C'est ce qu'on appelle un <strong>système embarqué</strong>
 </p>
 
-<h3 style="padding-left: 50px; padding-top: 20px; padding-bottom: 10px;">
-SCHEMA DE NOTRE CIRCUIT
+<h3 style="padding-left: 50px; padding-top: 20px; padding-bottom: 10px; color: #011451;">
+🔌 SCHEMA DE NOTRE CIRCUIT
 </h3>
 
 <p style="padding-left: 50px;">
@@ -110,9 +110,13 @@ Nous aurons besoin de quelques cables 🧶pour relier nos composants entre eux.
 </div>
 
 
-<p style="padding-left: 50px; font-size: 1.2em;">
-Allez au travail 😜!!! 
-</p><br>
+<h3 style="padding-left: 50px; padding-top: 20px; padding-bottom: 10px; color: #011451;">
+💻 CODE
+</h3>
+
+<p style="padding-left: 50px; ">
+👍 Une fois tout bien cablé, il est temps de programmer la logique 🎲 de notre arrosoir .
+</p>
 
 <p style="padding-left: 50px; font-style: italic;">
 Je vous mets le code final 👇 ici. Vous pourrez le consulter après les explications.
