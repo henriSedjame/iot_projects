@@ -10,7 +10,46 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-     <a href="./index.html" class="back-button"> ⬅️ RETOUR</a>
-     <md-block src="./prj_arrosoir/description.md" ></md-block>
+<a href="./index.html" class="back-button"> ⬅️ RETOUR</a>
+<md-block src="./prj_arrosoir/mds/description.md"></md-block>
+
+<div class="code_block_container">
+    <button id="show_code">
+        Voir le code final
+    </button>
+
+    <div id="code_final">
+        <div class="tabs">
+            <div id="main-tab" class="tab" onclick="showTab('main', ['main', 'capteur', 'pompe'])">main.py</div>
+            <div id="capteur-tab" class="tab" onclick="showTab('capteur', ['main', 'capteur', 'pompe'])">capteur.py</div>
+            <div id="pompe-tab" class="tab" onclick="showTab('pompe', ['main', 'capteur', 'pompe'])">pompe.py
+            </div>
+        </div>
+
+        <div id="main" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_arrosoir/mds/main.md"></md-block></code>
+            </pre>
+        </div>
+        <div id="capteur" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_arrosoir/mds/capteur.md"></md-block></code>
+            </pre>
+        </div>
+        <div id="pompe" style="display: none;">
+            <pre class="code_block">
+                <code class="python_code"><md-block src="./prj_arrosoir/mds/pompe.md"></md-block></code>
+            </pre>
+        </div>
+
+    </div>
+
+
+    <button id="hide_code">
+        Masquer le code final
+    </button>
+
+</div>
+<script type="text/javascript" src="./code.js"></script>
 </body>
 </html>

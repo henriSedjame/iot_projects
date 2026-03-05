@@ -25,7 +25,7 @@ Pour pouvoir fonctionner, la <strong>poubelle intelligente</strong> sera munie d
 
 <li class="component"> <strong style="text-transform: uppercase; font-size: .75em">capteur à ultrasons </strong> <br/><br/>
 <div class="description-component">
-<img src="../assets/capteur_ultrason.jpeg" width=150 alt="Capteur ultrason"><br>
+<img src="../../assets/capteur_ultrason.jpeg" width=150 alt="Capteur ultrason"><br>
 
         Le capteur à ultrasons permet de détecter les objets grâce à des ondes ultrasoniques.
 </div>
@@ -38,7 +38,7 @@ C'est lui qui nous dira <span class="dialog-bulle">Attention ⚠️ il y a quelq
 
 <li class="component"> <strong style="text-transform: uppercase; ; font-size: .75em">servo-moteur </strong> <br/>
 <div class="description-component">
-<img src="../assets/servo.jpeg" width=150 alt="Moteur servo"><br> 
+<img src="../../assets/servo.jpeg" width=150 alt="Moteur servo"><br> 
         
         Un servomoteur est un système motorisé capable d'atteindre des positions prédéterminées, puis de les maintenir.
 
@@ -52,7 +52,7 @@ Il possède un bras articulé 🦾 qui permettra de soulever le couvercle de la 
 
 <li class="component"> <strong style="text-transform: uppercase; ; font-size: .75em">micro-contrôleur </strong> <br/>
 <div class="description-component">
-<img src="../assets/rpi.jpeg" width=150 alt="Moteur servo"><br> 
+<img src="../../assets/rpi.jpeg" width=150 alt="Moteur servo"><br> 
 
         Un microcontrôleur est un circuit intégré qui rassemble les éléments essentiels d'un ordinateur.
 </div>
@@ -60,7 +60,7 @@ Il possède un bras articulé 🦾 qui permettra de soulever le couvercle de la 
 <div>
 En fait, un microcontrôleur, c'est comme un tout petit ordinateur 🖥️.
 
-Celui là s'appelle <span class="rpi"> <img src="../assets/rpi-logo.png" width=15 alt="Raspberry Pi Pico">  Raspberry Pi Pico</span>
+Celui là s'appelle <span class="rpi"> <img src="../../assets/rpi-logo.png" width=15 alt="Raspberry Pi Pico">  Raspberry Pi Pico</span>
 
 Il sera le 🧠 cerveau de notre poubelle.
 
@@ -92,9 +92,35 @@ C'est ce qu'on appelle un <strong>système embarqué</strong>
 </p>
 
 
+
+<h3 style="padding-left: 50px; padding-top: 20px; padding-bottom: 10px;">
+SCHEMA DE NOTRE CIRCUIT
+</h3>
+
 <p style="padding-left: 50px;">
-Allez au travail 😜 et seulement après tu pourras regarder le code final 👇.
+Voilà un peu à quoi devra ressembler notre circuit.
 </p>
+
+<p style="padding-left: 50px;">
+Nous aurons besoin de quelques cables 🧶pour relier nos composants entre eux.
+</p>
+
+<p style="padding-left: 50px;">
+⚠️ Prenez soin de choisir des cables de la bonne couleur pour ne pas vous perdre dans vos branchements️ 😜
+</p>
+<div style="padding-left: 50px;">
+<img src="../../assets/poub_schema.png" width=800 alt="schema">
+</div>
+
+
+<p style="padding-left: 50px; font-size: 1.2em;">
+Allez au travail 😜!!! 
+</p><br>
+
+<p style="padding-left: 50px; font-style: italic;">
+Je vous mets le code final 👇 ici. Vous pourrez le consulter après les explications.
+</p>
+
 
 
 
